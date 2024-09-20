@@ -1,11 +1,12 @@
 .gallery {
+    list-style: none;
     display: flex;
     overflow-x: auto;
     }
     
     .image {
-    width: 300px;
-    height: 200px;
+    width: 500px;
+    height: 450px;
     object-fit: cover;
     margin-right: 20px;
     cursor: pointer;
@@ -26,9 +27,4 @@
     max-width: 90%;
     max-height: 90%;
     margin: auto;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
     }
